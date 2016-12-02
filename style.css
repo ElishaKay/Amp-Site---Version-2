@@ -108,6 +108,29 @@ img{
 }
 
 
+@media (max-width: 466px) {
+  .team-member {
+    width: 100% !important;
+  }
+}
+
+.portfolio-box .portfolio-box-caption{-webkit-transition:all .35s;-moz-transition:all .35s}
+
+@media (max-width: 700px) {
+    .timeline-image
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .timeline-panel
+    {
+    width: 100%; 
+    }
+}
+
+
 
 /*copied from Secret TLV*/
 
