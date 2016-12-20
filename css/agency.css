@@ -5,13 +5,14 @@
  */
 
 .introtoPosts {
-background-color: #65D0E4; 
-color: #222222;
+color: black;
+font-family: 'Droid Sans Mono', monospace;
 }
 
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("/img/background-image.jpg");
 }
 .text-muted {
   color: #777777;
@@ -62,9 +63,9 @@ h6 {
   background-color: #222222;
 }
 .btn-primary {
-  color: white;
-  background-color: #65D0E4;
-  border-color: #65D0E4;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
@@ -73,9 +74,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #65D0E4;
-  border-color: #65D0E4;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -97,17 +98,19 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #65D0E4;
-  border-color: #65D0E4;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
 }
 .btn-primary .badge {
-  color: #65D0E4;
-  background-color: white;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
 }
 .btn-xl {
-  color: white;
-  background-color: #65D0E4;
-  border-color: #65D0E4;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border-radius: 3px;
@@ -119,9 +122,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
-  background-color: #65D0E4;
-  border-color: #65D0E4;
+  color: #fec503;
+  background-color: #1D3871;
+  border-color: black;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -233,11 +236,11 @@ header {
   
 }
 
-section {
+section.articles {
   padding: 100px 0;
-  background-color: #BDBC84;
-
+  background-image: url("../img/background-image.jpg");
 }
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -562,7 +565,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #65D0E4;
+  background-color: #1D3871;
 }
 .btn:focus,
 .btn:active,
@@ -660,4 +663,5 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+  background-image: url("/img/background-image.jpg");
 }
