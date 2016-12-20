@@ -1,5 +1,10 @@
 // Agency Theme JavaScript
 
+// Snow animation
+
+
+
+
 (function($) {
     "use strict"; // Start of use strict
 

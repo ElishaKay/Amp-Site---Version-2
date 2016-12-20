@@ -1,3 +1,9 @@
+/*Snow animation*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
 .fbbutton { 
   border:1px solid #1D3871; 
   width:94px; 
